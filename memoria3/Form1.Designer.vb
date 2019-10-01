@@ -53,15 +53,16 @@ Partial Class Form1
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(308, 30)
+        Me.Label1.Font = New System.Drawing.Font("Monotype Corsiva", 26.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(540, 131)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(90, 13)
+        Me.Label1.Size = New System.Drawing.Size(248, 43)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Jogo da memoria "
         '
         'PictureBox1
         '
-        Me.PictureBox1.Location = New System.Drawing.Point(93, 71)
+        Me.PictureBox1.Location = New System.Drawing.Point(8, 56)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(100, 97)
         Me.PictureBox1.TabIndex = 1
@@ -69,7 +70,7 @@ Partial Class Form1
         '
         'PictureBox2
         '
-        Me.PictureBox2.Location = New System.Drawing.Point(227, 190)
+        Me.PictureBox2.Location = New System.Drawing.Point(142, 184)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(100, 97)
         Me.PictureBox2.TabIndex = 2
@@ -77,7 +78,7 @@ Partial Class Form1
         '
         'PictureBox3
         '
-        Me.PictureBox3.Location = New System.Drawing.Point(227, 71)
+        Me.PictureBox3.Location = New System.Drawing.Point(142, 56)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(100, 97)
         Me.PictureBox3.TabIndex = 3
@@ -85,7 +86,7 @@ Partial Class Form1
         '
         'PictureBox4
         '
-        Me.PictureBox4.Location = New System.Drawing.Point(93, 190)
+        Me.PictureBox4.Location = New System.Drawing.Point(8, 184)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(100, 97)
         Me.PictureBox4.TabIndex = 4
@@ -93,7 +94,7 @@ Partial Class Form1
         '
         'PictureBox5
         '
-        Me.PictureBox5.Location = New System.Drawing.Point(491, 71)
+        Me.PictureBox5.Location = New System.Drawing.Point(406, 56)
         Me.PictureBox5.Name = "PictureBox5"
         Me.PictureBox5.Size = New System.Drawing.Size(100, 97)
         Me.PictureBox5.TabIndex = 5
@@ -101,7 +102,7 @@ Partial Class Form1
         '
         'PictureBox6
         '
-        Me.PictureBox6.Location = New System.Drawing.Point(366, 315)
+        Me.PictureBox6.Location = New System.Drawing.Point(281, 309)
         Me.PictureBox6.Name = "PictureBox6"
         Me.PictureBox6.Size = New System.Drawing.Size(100, 97)
         Me.PictureBox6.TabIndex = 6
@@ -109,7 +110,7 @@ Partial Class Form1
         '
         'PictureBox7
         '
-        Me.PictureBox7.Location = New System.Drawing.Point(227, 315)
+        Me.PictureBox7.Location = New System.Drawing.Point(142, 309)
         Me.PictureBox7.Name = "PictureBox7"
         Me.PictureBox7.Size = New System.Drawing.Size(100, 97)
         Me.PictureBox7.TabIndex = 7
@@ -117,7 +118,7 @@ Partial Class Form1
         '
         'PictureBox8
         '
-        Me.PictureBox8.Location = New System.Drawing.Point(93, 315)
+        Me.PictureBox8.Location = New System.Drawing.Point(8, 309)
         Me.PictureBox8.Name = "PictureBox8"
         Me.PictureBox8.Size = New System.Drawing.Size(100, 97)
         Me.PictureBox8.TabIndex = 8
@@ -125,7 +126,7 @@ Partial Class Form1
         '
         'PictureBox9
         '
-        Me.PictureBox9.Location = New System.Drawing.Point(366, 188)
+        Me.PictureBox9.Location = New System.Drawing.Point(281, 182)
         Me.PictureBox9.Name = "PictureBox9"
         Me.PictureBox9.Size = New System.Drawing.Size(100, 97)
         Me.PictureBox9.TabIndex = 9
@@ -133,7 +134,7 @@ Partial Class Form1
         '
         'PictureBox10
         '
-        Me.PictureBox10.Location = New System.Drawing.Point(356, 71)
+        Me.PictureBox10.Location = New System.Drawing.Point(271, 56)
         Me.PictureBox10.Name = "PictureBox10"
         Me.PictureBox10.Size = New System.Drawing.Size(100, 97)
         Me.PictureBox10.TabIndex = 10
@@ -141,7 +142,7 @@ Partial Class Form1
         '
         'PictureBox11
         '
-        Me.PictureBox11.Location = New System.Drawing.Point(491, 315)
+        Me.PictureBox11.Location = New System.Drawing.Point(406, 309)
         Me.PictureBox11.Name = "PictureBox11"
         Me.PictureBox11.Size = New System.Drawing.Size(100, 97)
         Me.PictureBox11.TabIndex = 11
@@ -149,7 +150,7 @@ Partial Class Form1
         '
         'PictureBox12
         '
-        Me.PictureBox12.Location = New System.Drawing.Point(491, 174)
+        Me.PictureBox12.Location = New System.Drawing.Point(406, 182)
         Me.PictureBox12.Name = "PictureBox12"
         Me.PictureBox12.Size = New System.Drawing.Size(100, 97)
         Me.PictureBox12.TabIndex = 12
@@ -158,9 +159,10 @@ Partial Class Form1
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(296, 428)
+        Me.Label2.Font = New System.Drawing.Font("Monotype Corsiva", 26.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(559, 269)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(59, 13)
+        Me.Label2.Size = New System.Drawing.Size(160, 43)
         Me.Label2.TabIndex = 13
         Me.Label2.Text = "Novo Jogo"
         '
@@ -168,6 +170,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.PictureBox12)
@@ -185,6 +188,7 @@ Partial Class Form1
         Me.Controls.Add(Me.Label1)
         Me.Name = "Form1"
         Me.Text = "Form1"
+        Me.TransparencyKey = System.Drawing.Color.Transparent
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()

@@ -23,9 +23,7 @@
                 Return My.Resources.Resources.imagem
             Case 7
                 Return My.Resources.Resources.imagem
-Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
 
-    End Sub
 End Class
 
 
